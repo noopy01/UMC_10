@@ -1,0 +1,205 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*NavBar*/
+.nav-bar{   /*OnlineShop*/
+  height: 70px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem;
+}
+
+.nav-bar a{
+  text-decoration: none;
+  color: rgb(255, 177, 198);
+}
+.nav-bar h2{
+font-size: 40px;
+}
+.nav-bag{
+  display: flex;
+  align-items: center;
+}
+.bag-quantity{
+  height: 25px;
+  width: 25px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background-color: rgb(255, 177, 198);
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: 700;
+  color:chocolate;
+  margin-left: 5px;
+}
+
+/*NotFound*/
+.not-found{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color:crimson;
+  min-height: 80vh;
+}
+.not-found h2{
+  font-size: 55px;
+}
+.not-found p{
+  font-size: 20px;
+}
+
+/*Home*/
+.home-container{
+  padding: 2rem 4rem;
+  background-color: rgb(255, 177, 198);
+}
+.home-container h2{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.products{
+  /*display: flex;
+  justify-content: space-between;
+  flex-wrap: center; */
+  margin-top: 2rem;
+  flex-direction: column;
+  margin-left: 20%;
+}
+.product{
+  width: 100px;
+  max-width: 100%;
+  height: 200px;
+  display: flex;
+
+  justify-content: space-between;
+  flex-wrap: center; 
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+.sub{
+  margin-top: 20px;
+}
+.title{
+  width: 400px;
+  font-weight: 600;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block; 
+}
+.product img{
+  width:110px;
+  height: 110px;
+  margin-top: 0;
+  margin-left: 100px;
+  margin-right: auto;
+}
+.product h3{
+  font-size: 25px;
+  font-weight: 400;
+}
+.product .details{
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+/*수량 업 다운*/
+.Chevron{
+  width:10px;
+  height: 10px;
+  
+  margin-top: 5% ;
+}
+.ChevronUp{
+  background-color: rgb(255, 177, 198);
+  height: 30px;
+}
+.ChevronUp:hover {
+  background-color: rgb(234, 135, 161);
+}
+
+.ChevronDown{
+  background-color: rgb(255, 177, 198);
+  height: 30px;
+}
+.ChevronDown:hover {
+  background-color: rgb(234, 135, 161);
+}
+
+.h-6 {
+  width:110px;
+  height:110px;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.count{
+  font-weight: 600;
+  
+}
+/*가격*/
+.price{
+  margin-left: 10px;
+  font-weight: 600;
+
+  color: grey;
+  margin-top: 5px;
+}
+
+.cartTotalAmount{
+  font-weight: 600;
+  margin-right: 10px; 
+}
+
+.ClearCart {
+  appearance: none;
+  -webkit-appearance: none; /* For WebKit */
+  -moz-appearance: none; /* For Firefox */
+  background: none; /* Corrected from background-color */
+  border: none;
+  color: rgb(233, 17, 17);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  
+}
+
+.ClearCart:hover {
+  background-color: #090606;
+
+}
+
+/*구분선 */
+.divider{
+  width: 90%;
+  background-color: #373434;
+  height: 5px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+/*총가격 ,초기화*/
+.cart-summary{
+  margin-left: 45%;
+}
+.cartTotalAmount{
+  margin-right: 100px;
+}
